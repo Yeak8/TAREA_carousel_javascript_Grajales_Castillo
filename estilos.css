@@ -1,0 +1,111 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.team-container {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.team-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.team-info h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.team-info h3 {
+    font-size: 18px;
+    color: #007bff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.team-info p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.carousel-container {
+    flex: 2;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 33.33%;
+    text-align: center;
+    padding: 10px;
+}
+
+.slide img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.slide h4 {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.slide p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.carousel-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.carousel-buttons button {
+    border: none;
+    background-color: #ffc107;
+    color: black;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-buttons button:hover {
+    background-color: #e0a800;
+}
+
+.carousel-buttons button i {
+    font-size: 18px;
+    pointer-events: none;
+}
